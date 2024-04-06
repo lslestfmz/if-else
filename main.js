@@ -1,7 +1,7 @@
-let numero = 54
+let numero = 39
 
-if (numero % 5 === 0) {
-    console.log("el numero es multiplo de 5");
+if (numero >= 1 && numero <= 100) {
+    console.log("el numero esta en el rango de 1 a 100");
 } else {
-    console.log("el numero no es multiplo de 5");
+    console.log("el numero esta fuera del rango");
 }
